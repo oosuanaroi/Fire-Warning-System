@@ -1,5 +1,6 @@
 ```C++
-
+// C++ code
+//
 #include <LiquidCrystal.h>
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 #define temp A1
@@ -54,4 +55,5 @@ void loop()
     digitalWrite(9, LOW);
   }
 }
+
 ```
